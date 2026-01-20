@@ -1,0 +1,8 @@
+{
+  "name": "ESBRAPY INTERNATIONAL",
+  "description": "Premium HVAC and Refrigeration contractor in Nairobi. Features AR 3D previews, efficiency calculators, and 100% accessible Silverpool Suites headquarters.",
+  "requestFramePermissions": [
+    "geolocation",
+    "camera"
+  ]
+}

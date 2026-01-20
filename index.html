@@ -1,0 +1,57 @@
+
+<!DOCTYPE html>
+<html lang="en" className="scroll-smooth">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>ESBRAPY INTERNATIONAL - Professional HVAC & Refrigeration Engineering</title>
+    <meta name="description" content="Nairobi's premier technical contractor for HVAC, VRF, and industrial refrigeration. 100% accessible facilities at Silverpool Office Suites.">
+    <script src="https://cdn.tailwindcss.com"></script>
+    <link href="https://fonts.googleapis.com/css2?family=Inter:wght@400;500;600;700;800;900&family=JetBrains+Mono:wght@400;700&display=swap" rel="stylesheet">
+    <style>
+        :root {
+            --brand-primary: #0891b2; 
+            --brand-dark: #0f172a;    
+        }
+        body { font-family: 'Inter', sans-serif; -webkit-font-smoothing: antialiased; }
+        .mono { font-family: 'JetBrains Mono', monospace; }
+        
+        .blueprint-bg {
+            background-color: #f8fafc;
+            background-image: 
+                linear-gradient(#e2e8f0 1px, transparent 1px),
+                linear-gradient(90deg, #e2e8f0 1px, transparent 1px);
+            background-size: 40px 40px;
+        }
+
+        /* Smooth scroll padding for sticky header */
+        html { scroll-padding-top: 80px; }
+        
+        @keyframes subtle-zoom {
+            from { transform: scale(1); }
+            to { transform: scale(1.05); }
+        }
+        .animate-subtle-zoom { animation: subtle-zoom 20s infinite alternate ease-in-out; }
+
+        .accessibility-focus:focus { outline: 3px solid #0891b2; outline-offset: 2px; }
+        
+        ::-webkit-scrollbar { width: 10px; }
+        ::-webkit-scrollbar-track { background: #0f172a; }
+        ::-webkit-scrollbar-thumb { background: #0891b2; border-radius: 5px; border: 2px solid #0f172a; }
+        ::-webkit-scrollbar-thumb:hover { background: #06b6d4; }
+    </style>
+<script type="importmap">
+{
+  "imports": {
+    "react/": "https://esm.sh/react@^19.2.3/",
+    "react": "https://esm.sh/react@^19.2.3",
+    "react-dom/": "https://esm.sh/react-dom@^19.2.3/",
+    "@google/genai": "https://esm.sh/@google/genai@^1.37.0"
+  }
+}
+</script>
+</head>
+<body class="bg-gray-50 text-slate-900 overflow-x-hidden">
+    <div id="root"></div>
+</body>
+</html>
